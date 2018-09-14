@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" action="/Home/PushMessage">
+    <table>
+        <tr>
+            <td><p>App token :</p></td>
+            <td><input type="text" name="token" /> </td>
+        </tr>
+        <tr>
+            <td><p>User key  :</p></td>
+            <td><input type="text" name="user" /> </td>
+        </tr>
+        <tr>
+            <td><p>Message text :</p></td>
+            <td><input type="text" name="message" /> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Send" /> </td>
+            <td></td>
+        </tr>
+    </table>
+</form>
